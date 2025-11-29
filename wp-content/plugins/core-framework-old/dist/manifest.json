@@ -1,0 +1,38 @@
+{
+  "../node_modules/canvg/lib/index.es.js": {
+    "file": "index.es-6feae763.js",
+    "imports": [
+      "main.tsx"
+    ],
+    "isDynamicEntry": true,
+    "src": "../node_modules/canvg/lib/index.es.js"
+  },
+  "../node_modules/dompurify/dist/purify.es.js": {
+    "file": "purify.es-2de9db7f.js",
+    "isDynamicEntry": true,
+    "src": "../node_modules/dompurify/dist/purify.es.js"
+  },
+  "assets/documentation_card.png": {
+    "file": "documentation_card-eda4364f.png",
+    "src": "assets/documentation_card.png"
+  },
+  "main.css": {
+    "file": "main-9b65333e.css",
+    "src": "main.css"
+  },
+  "main.tsx": {
+    "assets": [
+      "documentation_card-eda4364f.png"
+    ],
+    "css": [
+      "main-9b65333e.css"
+    ],
+    "dynamicImports": [
+      "../node_modules/dompurify/dist/purify.es.js",
+      "../node_modules/canvg/lib/index.es.js"
+    ],
+    "file": "main-e8776148.js",
+    "isEntry": true,
+    "src": "main.tsx"
+  }
+}

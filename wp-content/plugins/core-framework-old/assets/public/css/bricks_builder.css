@@ -1,0 +1,87 @@
+.cf-variable-autocomplete.autocomplete-items.bricks-control-popup.bottom {
+	box-shadow: 0 6px 12px 0 rgb(0 0 0 / 50%);
+	max-width: 100%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	padding: 0;
+	height: max-content !important;
+	max-height: 400px;
+	min-width: 200px;
+	text-align: left;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+
+.cf-variable-autocomplete.autocomplete-items.bricks-control-popup.bottom::-webkit-scrollbar {
+	display: none;
+}
+
+[data-control="spacing"] .handle.right .cf-variable-autocomplete.autocomplete-items.bricks-control-popup {
+	left: unset;
+}
+
+[title="margin-right"] .cf-variable-autocomplete.autocomplete-items.bricks-control-popup,
+[title="padding-right"] .cf-variable-autocomplete.autocomplete-items.bricks-control-popup {
+	right: 0;
+}
+
+[title="margin-left"] .cf-variable-autocomplete.autocomplete-items.bricks-control-popup,
+[title="padding-left"] .cf-variable-autocomplete.autocomplete-items.bricks-control-popup {
+	left: 0;
+}
+
+[title="margin-top"] .cf-variable-autocomplete.autocomplete-items.bricks-control-popup,
+[title="padding-top"] .cf-variable-autocomplete.autocomplete-items.bricks-control-popup,
+[title="margin-bottom"] .cf-variable-autocomplete.autocomplete-items.bricks-control-popup,
+[title="padding-bottom"] .cf-variable-autocomplete.autocomplete-items.bricks-control-popup {
+	transform: translateX(-50%);
+}
+
+[data-control="border"]
+	[controlkey="radius"]
+	.handle
+	.cf-variable-autocomplete.autocomplete-items.bricks-control-popup {
+	position: absolute;
+}
+
+.cf-variable-autocomplete.autocomplete-items.bricks-control-popup ul li {
+	cursor: pointer;
+	line-height: 20px;
+	margin: 1px 0;
+	padding: 4px 10px;
+}
+
+.cf-variable-autocomplete.autocomplete-items.bricks-control-popup ul li:hover,
+.cf-variable-autocomplete.autocomplete-items.bricks-control-popup ul li.selected {
+	background-color: var(--builder-bg-3);
+}
+
+.control.control-spacing.expanded
+	[data-control="spacing"]
+	.handle.right
+	.autocomplete-items.bricks-control-popup,
+.control.control-spacing.expanded
+	[data-control="spacing"]
+	.handle.left
+	.autocomplete-items.bricks-control-popup,
+.control.control-spacing.expanded
+	[data-control="spacing"]
+	.handle.top
+	.autocomplete-items.bricks-control-popup,
+.control.control-spacing.expanded
+	[data-control="spacing"]
+	.handle.bottom
+	.autocomplete-items.bricks-control-popup {
+	left: unset;
+	right: 0;
+}
+
+.cf-variable-autocomplete ul li span {
+	border-radius: 999px;
+	width: 15px;
+	height: 15px;
+	display: inline-block;
+	margin-right: 7.5px;
+	margin-top: auto;
+	margin-bottom: auto;
+}
